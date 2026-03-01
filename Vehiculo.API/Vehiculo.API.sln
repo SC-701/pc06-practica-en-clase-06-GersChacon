@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstracciones", "Abstracciones\Abstracciones.csproj", "{D38A363D-B177-48AE-85C7-306EE171C17D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB", "Database1\DB.sqlproj", "{C42162F1-5FCF-457D-B6CB-2816DB928573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DA", "DA\DA.csproj", "{E6B0F03E-0A24-42AB-9017-7CE1BF10173B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flujo", "Flujo\Flujo.csproj", "{DDA49512-5820-4B27-90B2-3D714CE2FF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{14601739-5798-417C-BF5A-46D7E674A351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicios", "Servicios\Servicios.csproj", "{78940D0E-5022-4486-9CAB-7CE0F8CCBD2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reglas", "Reglas\Reglas.csproj", "{77F741E9-F371-4318-A53B-23D9F6FE652C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D38A363D-B177-48AE-85C7-306EE171C17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38A363D-B177-48AE-85C7-306EE171C17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38A363D-B177-48AE-85C7-306EE171C17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38A363D-B177-48AE-85C7-306EE171C17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42162F1-5FCF-457D-B6CB-2816DB928573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42162F1-5FCF-457D-B6CB-2816DB928573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42162F1-5FCF-457D-B6CB-2816DB928573}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C42162F1-5FCF-457D-B6CB-2816DB928573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42162F1-5FCF-457D-B6CB-2816DB928573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42162F1-5FCF-457D-B6CB-2816DB928573}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E6B0F03E-0A24-42AB-9017-7CE1BF10173B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B0F03E-0A24-42AB-9017-7CE1BF10173B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B0F03E-0A24-42AB-9017-7CE1BF10173B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B0F03E-0A24-42AB-9017-7CE1BF10173B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA49512-5820-4B27-90B2-3D714CE2FF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA49512-5820-4B27-90B2-3D714CE2FF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA49512-5820-4B27-90B2-3D714CE2FF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA49512-5820-4B27-90B2-3D714CE2FF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14601739-5798-417C-BF5A-46D7E674A351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14601739-5798-417C-BF5A-46D7E674A351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14601739-5798-417C-BF5A-46D7E674A351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14601739-5798-417C-BF5A-46D7E674A351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78940D0E-5022-4486-9CAB-7CE0F8CCBD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78940D0E-5022-4486-9CAB-7CE0F8CCBD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78940D0E-5022-4486-9CAB-7CE0F8CCBD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78940D0E-5022-4486-9CAB-7CE0F8CCBD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F741E9-F371-4318-A53B-23D9F6FE652C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F741E9-F371-4318-A53B-23D9F6FE652C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F741E9-F371-4318-A53B-23D9F6FE652C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F741E9-F371-4318-A53B-23D9F6FE652C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AF90775-AF30-4FF7-A8A4-BA7183336108}
+	EndGlobalSection
+EndGlobal

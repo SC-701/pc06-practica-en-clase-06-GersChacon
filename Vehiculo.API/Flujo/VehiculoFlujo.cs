@@ -43,8 +43,8 @@ namespace Flujo
         public async Task<VehiculoDetalle> Obtener(Guid Id)
         {
             var vehiculo = await _vehiculoDA.Obtener(Id);
-            vehiculo.RegistroValido = await _registroReglas.VehiculoEstaRegistrado(vehiculo.Placa,
-            vehiculo.CorreoPropietario);
+            if (vehiculo == null) return null;
+            vehiculo.RegistroValido = await _registroReglas.VehiculoEstaRegistrado(vehiculo.Placa, vehiculo.CorreoPropietario);
             vehiculo.RevisionValida = await _revisionReglas.RevisionEsValida(vehiculo.Placa);
             return vehiculo;
         }

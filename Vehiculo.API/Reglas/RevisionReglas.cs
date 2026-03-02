@@ -18,8 +18,8 @@ namespace Reglas
         public async Task<bool> RevisionEsValida(string placa)
         {
             var resultadoRevision = await _revisionServicio.Obtener(placa);
-            if (ValidarEstado(resultadoRevision) && ValidarPeriodo
-            (resultadoRevision.Periodo))
+            if (resultadoRevision == null) return false;
+            if (ValidarEstado(resultadoRevision) && ValidarPeriodo(resultadoRevision.Periodo))
                 return true;
             return false;
         }
